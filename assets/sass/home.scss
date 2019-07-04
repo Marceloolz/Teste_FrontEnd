@@ -1,0 +1,50 @@
+.Home_Telecine{
+    z-index: -1;
+    background-image: url('../img/Background_Home.jpg');
+    background-size: cover;
+    min-height: calc(100vh - 100px);
+    width: 100%;
+    .Home_Bg_Text{
+        background-image: url('../img/Home_Bg_Text.png');
+        background-size: cover;
+        background-position: center;
+        min-height: calc(100vh - 100px);
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        padding-left: 100px;
+        flex-direction: column;
+        .Home_Text_Title{
+            b{
+                display: block;
+            }
+            h1{
+                padding: 0;
+                margin: 0;
+                font-size: 32px;
+                line-height: 40px;
+            }
+            color: #515151;
+            text-transform: uppercase;
+            span{
+                display: block;
+                color: #ea493e;
+            }
+        }
+        .Home_Text_Subtitle{
+            padding: 24px 0px;
+            h2{
+                padding: 0;
+                margin: 0;
+                font-size: 24px;
+                line-height: 32px;
+                color: #515151;
+                font-weight: 500;
+                b{
+                    font-weight: 700;
+                }
+            }
+        }
+    }
+}
