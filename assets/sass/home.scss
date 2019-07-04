@@ -48,3 +48,39 @@
         }
     }
 }
+
+@media screen and (max-width: 839px){
+    .Home_Telecine{
+        background-image: url('../img/BackgroundMobile_Home.png');
+        background-size: cover;
+        background-color: #000;
+        .Home_Bg_Text{
+            position: relative;
+            z-index: 10;
+            background-image: none;
+            width: calc(100% - 128px);
+            padding: 0 64px;
+            justify-content: center;
+            align-items: center;
+            .Home_Text_Title{
+                text-align: center;
+                color: #fff;
+            }
+            .Home_Text_Subtitle{
+                text-align: center;
+                h2{
+                    color: #fff;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 640px){
+    .Home_Telecine{
+        .Home_Bg_Text{
+            width: calc(100% - 64px);
+            padding: 0px 32px;
+        }
+    }
+}
