@@ -2,5 +2,26 @@
     width: 100%;
     min-height: 100px;
     background-color: #fff;
-    box-shadow: 1px 1px #000;
+    box-shadow: 1px 1px 20px 5px #0000000d;
+    display: flex;
+    justify-content: center;
+    .Header_Container{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        width: calc(100% - 200px);
+        padding: 0px 100px;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .Header_Telecine{
+        .Header_Container{
+            justify-content: center;
+            .Button_Telecine{
+                display: none;
+            }
+        }
+    }
 }
