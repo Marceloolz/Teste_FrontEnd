@@ -1,0 +1,30 @@
+{
+  "name": "telecine",
+  "version": "1.0.0",
+  "description": "Landing Page de teste para a Telecine",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Marceloolz/Teste_FrontEnd.git"
+  },
+  "keywords": [
+    "LandingPage, LP, Landing Page, Telecine"
+  ],
+  "author": "Marcelo Gomes Ferreira",
+  "license": "ISC",
+  "devDependencies": {},
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.9.3",
+    "gulp-concat": "^2.6.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^4.0.2",
+    "gulp-watch": "^5.0.1"
+  },
+  "directories": {
+    "lib": "lib"
+  }
+}
