@@ -6,6 +6,7 @@
     padding: 24px 24px;
     display: flex;
     flex-direction: column;
+    align-items: center;
     justify-content: center;
     overflow-y: visible;
     .Movies_Section_Devices{
@@ -13,6 +14,7 @@
         flex-direction: row;
         justify-content: space-around;
         margin-top: 50px;
+        width: 100%;
         .Movies_SectionDevice{
             margin-top: 40px;
             .Movie_Section_Devices_List{
