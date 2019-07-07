@@ -1,0 +1,39 @@
+@media screen and (min-width: 640px){
+    .Page_Assine{
+        background-image: url('../img/Background_Home.jpg');
+        background-size: cover;
+        min-height: calc(100vh - 100px);
+    }
+}
+
+
+.FormTelecine{
+    max-width: calc(100% - 48px);
+    padding: 0px 24px;
+    .FormTelecine_Subtitle{
+        text-align: center;
+        font-size: 18px;
+        line-height: 26px;
+        margin: 16px 0px;
+        font-weight: 500;
+    }
+    .FormTelecine_Content{
+        display: flex;
+        flex-direction: column;
+        .FormTelecine_Label{
+            font-size: 16px;
+            line-height: 24px;
+            text-transform: uppercase;
+            font-weight: 500;
+        }
+        .Form_Telecine_Input{
+            margin: 8px 0px 16px 0px;
+            text-transform: uppercase;
+            font-size: 12px;
+            line-height: 18px;
+            border: none;
+            border-bottom: 1px solid #000;
+            padding: 24px 0px 0px 0px;
+        }
+    }
+}

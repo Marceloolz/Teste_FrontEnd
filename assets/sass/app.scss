@@ -4,6 +4,7 @@
 @import 'home.scss';
 @import 'movies.scss';
 @import 'footer.scss';
+@import 'assine.scss';
 
 body{
     font-family: 'Open Sans', sans-serif;
@@ -62,9 +63,4 @@ body{
             color: #e63e33;
         }
     }
-}
-
-.FullSite{
-    display: flex;
-    flex-direction: column;
 }

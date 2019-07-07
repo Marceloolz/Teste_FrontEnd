@@ -5,6 +5,10 @@
     min-height: calc(100vh - 100px);
     width: 100%;
     .Home_Bg_Text{
+        a{
+            outline: none;
+            text-decoration: none;
+        }
         background-image: url('../img/Home_Bg_Text.png');
         background-size: cover;
         background-position: center;
