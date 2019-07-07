@@ -1,0 +1,28 @@
+.Movies{
+    width: calc(100% - 48px);
+    background-color: #000;
+    background-image: url('../img/Background_anothersection.png');
+    background-size: cover;
+    padding: 24px 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    overflow-x: hidden;
+    .Slider_Movies{
+        display: flex;
+        flex-direction: row;
+        max-width: fit-content;
+        margin-top: -100px;
+        overflow-x: scroll;
+        .Slider_Movies_Item{
+            width: 215px;
+            height: 320px;
+            margin: 8px;
+            img{
+                width: 215px;
+                height: 320px;  
+                border-radius: 8px;
+            }
+        }
+    }
+}
