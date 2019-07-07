@@ -5,9 +5,68 @@
     background-size: cover;
     padding: 24px 24px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     overflow-y: visible;
+    .Movies_Section_Devices{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-top: 50px;
+        .Movies_SectionDevice{
+            margin-top: 40px;
+            .Movie_Section_Devices_List{
+                width: 100%;
+                list-style-type: none;
+                text-decoration: none;
+                padding: 0;
+                margin: 0;
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                li{
+                    color: #fff;
+                    width: 45%;
+                    padding: 0;
+                    margin: 0;
+                }
+            }
+            max-width: fit-content;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .Movies_Section_Title{
+                color: #ea493e;
+                font-weight: 700;
+                text-align: center;
+                padding: 8px 8px;
+            }
+            .Movies_SectionDevice_Image{
+                background-color: #ea493e;
+                border-radius: 8px;
+                width: 300px;
+                @media screen and (max-width: 480px){
+                    width: 100%;
+                }
+                height: 180px;
+                display: flex;
+                justify-content: center;
+                align-items: flex-end;
+                // clip-path: polygon(0 38%,100% 25%,100% 100%,0% 100%);
+            }
+        }
+    }
+    .Movies_Title{
+        color: #fff;
+        text-align: center;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 32px;
+        .Movies_Title_Draft{
+            color: #ea493e;
+            display: block;
+        }
+    }
     .Slider_Movies{
         display: flex;
         flex-direction: row;
@@ -26,15 +85,29 @@
         }
     }
 }
-@media screen and (max-width: 639px){
+
+@media screen and (max-width: 480px){
     .Movies{
-        display: flex;
-        flex-direction: row;
+        .Movies_Section_Devices{
+            flex-direction: column;
+        }
+    }
+}
+
+@media screen and (min-width: 639px){
+    .Movies{
         .Slider_Movies{
-            margin-top: -50px;
-            position: relative;
-            .Slider_Movies_Item{
-                position: relative;
+            overflow-x: hidden;
+        }
+        .Movies_Title{
+            padding: 32px 0px;
+            text-transform: uppercase;
+            font-size: 32px;
+            line-height: 40px;
+            font-weight: 300;
+            .Movies_Title_Draft{
+                font-weight: 700;
+                color: #ea493e;
             }
         }
     }

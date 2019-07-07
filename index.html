@@ -9,6 +9,11 @@
     <meta name='keywords' content='Telecine, Play, telecine play, videos, filmes, filme' />
     <link href="dist/css/style.css" rel="stylesheet" type="text/css" />
     <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="dist/libs/slick/slick.css" />
+    <script type="text/javascript" src="dist/js/app.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="dist/libs/slick/slick.min.js"></script>
 </head>
 
 <body>
@@ -26,7 +31,8 @@
         <div class="Home_Telecine">
             <div class="Home_Bg_Text">
                 <div class="Home_Text_Title">
-                    <h1>Filmes exclusivos <span class="Span_Draft1">dos maiores estúdios, <span class="Span_Draft2">é só dar um play</span></span></h1>
+                    <h1>Filmes exclusivos <span class="Span_Draft1">dos maiores estúdios, <span class="Span_Draft2">é só
+                                dar um play</span></span></h1>
                 </div>
                 <div class="Home_Text_Subtitle">
                     <h2>
@@ -41,18 +47,68 @@
         <div class="Movies">
             <div class="Slider_Movies">
                 <div class="Slider_Movies_Item">
-                    <img src="dist/img/umaduplaquaseperfeita.jpg" alt="Uma dupla quase perfeita" title="Uma dupla quase perfeita">
+                    <img src="dist/img/umaduplaquaseperfeita.jpg" alt="Uma dupla quase perfeita"
+                        title="Uma dupla quase perfeita">
                 </div>
                 <div class="Slider_Movies_Item">
                     <img src="dist/img/truthordare.jpg" alt="Truth of Dare" title="Truth of Dare">
                 </div>
                 <div class="Slider_Movies_Item">
-                    <img src="dist/img/tombraider_aorigem.jpg" alt="Tomb Raider - A Origem" title="Tomb Raider - A Origem">
+                    <img src="dist/img/tombraider_aorigem.jpg" alt="Tomb Raider - A Origem"
+                        title="Tomb Raider - A Origem">
                 </div>
                 <div class="Slider_Movies_Item">
                     <img src="dist/img/threebillboards.jpg" alt="Three Billboards" title="Three Billboards">
                 </div>
             </div>
+            <div class="Movies_Title">
+                <span class="Movies_Title_Item">
+                    O melhor catálogo. <span class="Movies_Title_Draft">Em todas as telas</span>
+                </span>
+            </div>
+            <div class="Movies_Section_Devices">
+                <div class="Movies_SectionDevice PC">
+                    <div class="Movies_SectionDevice_Image">
+                        <img src="dist/img/pc.png">
+                    </div>
+                    <div class="Movies_Section_Title">
+                        Assista na TV
+                    </div>
+                    <ul class="Movie_Section_Devices_List">
+                        <li>
+                            <ion-icon name="checkmark"></ion-icon> Smart TVs
+                        </li>
+                        <li>
+                            <ion-icon name="checkmark"></ion-icon> Xbox One
+                        </li>
+                        <li>
+                            <ion-icon name="checkmark"></ion-icon> Chromecast
+                        </li>
+                    </ul>
+                </div>
+                <div class="Movies_SectionDevice Cellphone">
+                    <div class="Movies_SectionDevice_Image">
+                        <img src="dist/img/cellphone.png">
+                    </div>
+                    <div class="Movies_Section_Title">
+                        Ou onde quiser
+                    </div>
+                    <ul class="Movie_Section_Devices_List">
+                        <li>
+                            <ion-icon name="checkmark"></ion-icon> Android
+                        </li>
+                        <li>
+                            <ion-icon name="checkmark"></ion-icon> Ios
+                        </li>
+                        <li>
+                            <ion-icon name="checkmark"></ion-icon> PC
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <footer>
+                
+            </footer>
         </div>
     </div>
     <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
